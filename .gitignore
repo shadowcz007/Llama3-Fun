@@ -1,3 +1,11 @@
+/www/node_modules
+/www/docs/.vuepress/dist
+/www/docs/.vuepress/.temp
+/www/docs/.vuepress/.cache
+/www/cache
+/www/my_site
+
+
 # Logs
 logs
 *.log
@@ -128,3 +136,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/www
