@@ -45,8 +45,8 @@ export default defineUserConfig({
       }
     ],
     ['meta', { name: 'author', content: myConfig.author }],
-    ['script', { src: `/${myConfig.base}/javascript/translate.js` }],
-    ['script', { src: `/${myConfig.base}/javascript/model-viewer.min.js`, type: 'module' }],
+    ['script', { src: `./${myConfig.base}/javascript/translate.js` }],
+    ['script', { src: `./${myConfig.base}/javascript/model-viewer.min.js`, type: 'module' }],
     [
       'meta',
       {
