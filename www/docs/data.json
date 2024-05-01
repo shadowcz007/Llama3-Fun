@@ -1,6 +1,6 @@
 {
   "dest": "../docs",
-  "base": "/Llama3-Chinese-Enthusiasts-Community/",
+  "base": "/",
   "title": "Llama3 中文爱好者社区",
   "description": "Connecting the world",
   "social": {
@@ -8,7 +8,7 @@
   },
   "keywords": "Llama3, Chinese community, open source, innovation,中文社区, 开源项目, 创新",
   "author": "shadow",
-  "hostname": "www.Llama3-Chinese-Enthusiasts-Community.com",
+  "hostname": "llama3.fun",
   "navbar": [
     {
       "text": "基础教程",
