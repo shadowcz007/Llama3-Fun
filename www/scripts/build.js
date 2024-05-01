@@ -1,3 +1,5 @@
+import fs from 'fs'
+import path from 'path'
 const b = async () => {
   const sourceDir = 'docs'
   const {
@@ -48,6 +50,24 @@ const b = async () => {
   // process onGenerated hook
   console.log('staticSiteApp.pluginApi.hooks.onGenerated.process')
   await staticSiteApp.pluginApi.hooks.onGenerated.process(staticSiteApp)
+
+  const currentDirectory = process.cwd()
+  const parentDirectory = path.resolve(currentDirectory, '')
+  let json = path.join(parentDirectory, 'docs/data.json')
+  const data = fs.readFileSync(json, 'utf8')
+  let myConfig = JSON.parse(data)
+
+  fs.writeFile(
+    path.join(path.resolve(myConfig.dest, ''), 'CNAME'),
+    myConfig.hostname,
+    err => {
+      if (err) {
+        console.error('写入文件时出错：', err)
+      } else {
+        console.log('成功将内容写入CNAME文件')
+      }
+    }
+  )
 }
 
 b()

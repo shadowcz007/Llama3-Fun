@@ -1,3 +1,6 @@
 @echo off
 
-npm run docs:build
+@REM npm run docs:build
+node scripts/build.js
+
+timeout /t 55
