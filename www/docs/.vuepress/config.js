@@ -8,7 +8,7 @@ import { containerPlugin } from '@vuepress/plugin-container'
 import { catalogPlugin } from '@vuepress/plugin-catalog'
 import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
 import { searchPlugin } from '@vuepress/plugin-search'
-
+import {googleAnalyticsPlugin} from "@vuepress/plugin-google-analytics";
 import fs from 'fs'
 import path from 'path'
 
@@ -91,6 +91,10 @@ export default defineUserConfig({
           : 'website',
       url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
       hostname: myConfig.hostname
+    }),
+    googleAnalyticsPlugin({
+      // 配置项
+      id:'G-4V143TQKY9',
     }),
     mdEnhancePlugin({
       // your options
