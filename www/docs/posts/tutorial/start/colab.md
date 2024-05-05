@@ -1,3 +1,11 @@
+---
+title: Llama3 微调教程：超简单，人人都可以打造属于自己的 GPT！
+description: colab
+meta:
+  - name: LLMs，LLM，Llama3,colab
+    content: Llama3爱好者
+---
+
 # Llama3 微调教程：超简单，人人都可以打造属于自己的 GPT！
 
 [colab 版](https://mp.weixin.qq.com/s/VV1BUMQIMrb5LxQNusQsDg)

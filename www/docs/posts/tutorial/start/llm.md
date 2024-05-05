@@ -1,3 +1,11 @@
+---
+title: 本地LLM使用指南
+description: 本地大语言模型的实操指南
+meta:
+  - name: LLMs，LLM，Llama3,Mistral
+    content: Llama3爱好者
+---
+
 # 本地LLM使用指南 0.3
 
 [原文](https://github.com/xue160709/Local-LLM-User-Guideline/blob/main/README-zh.md)

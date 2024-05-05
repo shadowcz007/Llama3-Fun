@@ -1,4 +1,9 @@
 ---
+title: Llama3微调
+description: 零基础入门了Llama3的微调
+meta:
+  - name: LLMs，LLM，Llama3,Mistral
+    content: Llama3爱好者
 ---
 
 # 我花了2元，15分钟，零基础入门了Llama3的微调。

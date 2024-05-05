@@ -1,3 +1,11 @@
+---
+title: Llama3 中文爱好者社区
+description: 交流分享Llama3的各种相关知识，包括微调，应用场景，工作、任务发布等。
+meta:
+  - name: 中文社区，爱好者，LLM，Llama3
+    content: Llama3爱好者
+---
+
 # Llama3 中文爱好者社区 
 > Connecting the world
 
